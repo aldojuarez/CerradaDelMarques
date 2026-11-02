@@ -1,0 +1,25 @@
+{
+  "name": "cerrada-del-marques",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "test": "node --test --test-isolation=none test/*.test.js",
+    "check": "tsc --noEmit",
+    "apk": "npx eas-cli@latest build --platform android --profile preview"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-secure-store": "~15.0.7",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-webview": "13.15.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}
